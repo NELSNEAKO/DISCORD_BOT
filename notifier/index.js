@@ -15,7 +15,7 @@ const client = new Client({
 // Function to fetch Roblox game details
 async function getRobloxGameDetails(placeId) {
   try {
-    // Step 1: Get Universe ID
+    // Step 1: Get Universe IDn
     const universeRes = await axios.get(
       `https://apis.roblox.com/universes/v1/places/${placeId}/universe`
     );
